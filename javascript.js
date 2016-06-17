@@ -4,6 +4,19 @@ $(function(){
   // 画面更新時
 
   $("body").fadeIn(2000);
+
+  $.sublime_slideshow({
+            src:[
+            {url:"./30000.jpg"},
+            {url:"./1020.jpg"},
+            {url:"./21.jpg"}
+            ],
+            duration:   7,
+            fade:       1,
+            scaling:    1.2,
+            rotating:   2,
+            overlay:    "./pattern.png"
+        });
     //
     //  車両カード
     //
@@ -55,7 +68,7 @@ $(function(){
           left:"0px"
         },300);
         var p = $(".routeimage").offset().top;
-        $('html,body').animate({ scrollTop: p });
+        $('html,body').animate({ scrollTop: (p-80) });
         return false;
      });
 

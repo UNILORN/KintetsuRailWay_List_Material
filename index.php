@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="./style.css" media="screen" title="no title" charset="utf-8">
+    <script src="./jquery.sublimeSlideshow.js" ></script>
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script type="text/javascript" src="./javascript.js"></script>
@@ -17,6 +18,9 @@
     <title></title>
   </head>
   <body>
+
+    <div class="background-train"></div>
+
     <nav>
       <div class="nav-wrapper">
        <a href="#" class="brand-logo homebutton">
