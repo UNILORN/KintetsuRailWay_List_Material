@@ -17,6 +17,7 @@ $(function(){
             rotating:   2,
             overlay:    "./pattern.png"
         });
+  $(".sm-slider").css("height","120%");
     //
     //  車両カード
     //
