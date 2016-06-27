@@ -99,7 +99,8 @@ $(function(){
 
     //  スクロール時
      $(window).scroll(function(){
-       if ($(".routeimage").height() < $(this).scrollTop()){
+       var height_vv = $(".routeimage").height();
+       if ( height_vv - 100 <= $(this).scrollTop()){
          $(".Vehicle").css("opacity","0.5");
          $(".Route").css("opacity","1");
        }

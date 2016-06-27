@@ -150,6 +150,12 @@ nav {
 .train_h > .mdl-card__title{
   background: url('./21020.jpg') center / cover;
 }
+.train_i > .mdl-card__title{
+  background: url('./5200.jpg') center / cover;
+}
+.train_j > .mdl-card__title{
+  background: url('./8810.jpg') center / cover;
+}
 .Vehicle {
     opacity: 1;
 }
